@@ -158,7 +158,7 @@
 
         Combo_DEL {
             bindings = <&kp DEL>;
-            key-positions = <19 20 35>;
+            key-positions = <20 33 21>;
             layers = <0>;
         };
     };
