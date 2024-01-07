@@ -145,7 +145,7 @@
 
         Combo_V {
             bindings = <&kp V>;
-            key-positions = <34 21>;
+            key-positions = <20 35>;
         };
 
         Combo_W {
@@ -187,6 +187,11 @@
         Combo_PERIOD {
             bindings = <&kp PERIOD>;
             key-positions = <22 35>;
+        };
+
+        Combo_RETURN {
+            bindings = <&kp RET>;
+            key-positions = <34 21>;
         };
     };
 
