@@ -135,7 +135,7 @@
 
         Combo_Q {
             bindings = <&kp Q>;
-            key-positions = <20 35 22>;
+            key-positions = <33 20 35>;
         };
 
         Combo_T {
@@ -161,6 +161,7 @@
         Combo_Y {
             bindings = <&kp Z>;
             key-positions = <19 20 35>;
+            layers = <0>;
         };
 
         Combo_Z {
@@ -192,6 +193,11 @@
         Combo_RETURN {
             bindings = <&kp RET>;
             key-positions = <34 21>;
+        };
+
+        Combo_U {
+            bindings = <&kp U>;
+            key-positions = <33 36>;
         };
     };
 
