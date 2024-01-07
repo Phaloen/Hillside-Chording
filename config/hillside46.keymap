@@ -65,7 +65,7 @@
     combos {
         compatible = "zmk,combos";
 
-        Combo_DEL {
+        Combo_GL {
             bindings = <&kp G>;
             key-positions = <16 15>;
             layers = <0>;
@@ -88,10 +88,77 @@
             key-positions = <19 35>;
         };
 
+        Combo_J {
+            bindings = <&kp J>;
+            key-positions = <33 35>;
+        };
+
+        Combo_K {
+            bindings = <&kp K>;
+            key-positions = <19 22>;
+        };
+
         Combo_L {
             bindings = <&kp L>;
             key-positions = <19 36>;
         };
+
+        Combo_M {
+            bindings = <&kp M>;
+            key-positions = <33 22>;
+        };
+
+        Combo_P {
+            bindings = <&kp P>;
+            key-positions = <20 21>;
+        };
+
+        Combo_Q {
+            bindings = <&kp Q>;
+            key-positions = <19 39>;
+        };
+
+        Combo_T {
+            bindings = <&kp T>;
+            key-positions = <19 21>;
+        };
+
+        Combo_V {
+            bindings = <&kp V>;
+            key-positions = <34 21>;
+        };
+
+        Combo_W {
+            bindings = <&kp W>;
+            key-positions = <34 35>;
+        };
+
+        Combo_X {
+            bindings = <&kp X>;
+            key-positions = <20 22>;
+        };
+
+        Combo_Y {
+            bindings = <&kp Z>;
+            key-positions = <19 20 35>;
+        };
+
+        Combo_Z {
+            bindings = <&kp Y>;
+            key-positions = <34 36>;
+        };
+
+        Combo_BSPC {
+            bindings = <&kp BSPC>;
+            key-positions = <19 20 21>;
+        };
+
+        Combo_DEL {
+            bindings = <&kp DEL>;
+            key-positions = <19 20 35>;
+        };
+
+
     };
 
     keymap {
