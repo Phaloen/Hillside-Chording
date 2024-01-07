@@ -182,7 +182,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp E  &kp R     &kp T                                                   &none  &none  &none      &none  &none  &none
 &kp MINUS   &kp A  &kp S  &kp D  &kp F     &kp G                                                   &none  &kp N  &kp E      &kp R  &kp S  &none
 &trans      &kp Z  &kp X  &kp C  &kp V     &kp B            &none                           &none  &none  &kp A  &kp SPACE  &kp I  &kp O  &trans
-                                 &kp LGUI  &Bspc_Layer 2 0  &sk LSHIFT  &mo NAV_L    &none  &none  &none  &none
+                                 &kp LGUI  &none            &none    &none           &none  &none  &none  &none
             >;
 
             sensor-bindings =
