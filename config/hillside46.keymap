@@ -78,7 +78,7 @@
         };
 
         Combo_soft {
-            bindings = <&kp COMMA>;
+            bindings = <&kp M>;
             key-positions = <21 22>;
             layers = <1>;
         };
@@ -121,6 +121,7 @@
         Combo_T {
             bindings = <&kp T>;
             key-positions = <19 21>;
+            layers = <0>;
         };
 
         Combo_V {
@@ -141,6 +142,7 @@
         Combo_Y {
             bindings = <&kp Z>;
             key-positions = <19 20 35>;
+            layers = <0>;
         };
 
         Combo_Z {
@@ -151,14 +153,14 @@
         Combo_BSPC {
             bindings = <&kp BSPC>;
             key-positions = <19 20 21>;
+            layers = <0>;
         };
 
         Combo_DEL {
             bindings = <&kp DEL>;
             key-positions = <19 20 35>;
+            layers = <0>;
         };
-
-
     };
 
     keymap {
