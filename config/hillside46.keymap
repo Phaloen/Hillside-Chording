@@ -118,12 +118,6 @@
             key-positions = <19 39>;
         };
 
-        Combo_T {
-            bindings = <&kp T>;
-            key-positions = <19 21>;
-            layers = <0>;
-        };
-
         Combo_V {
             bindings = <&kp V>;
             key-positions = <34 21>;
@@ -139,27 +133,30 @@
             key-positions = <20 22>;
         };
 
-        Combo_Y {
-            bindings = <&kp Z>;
-            key-positions = <19 20 35>;
-            layers = <0>;
-        };
-
         Combo_Z {
             bindings = <&kp Y>;
             key-positions = <34 36>;
-        };
-
-        Combo_BSPC {
-            bindings = <&kp BSPC>;
-            key-positions = <20 21 19>;
-            layers = <0>;
         };
 
         Combo_DEL {
             bindings = <&kp DEL>;
             key-positions = <20 33 21>;
             layers = <0>;
+        };
+
+        Combo_T {
+            bindings = <&kp T>;
+            key-positions = <19 21>;
+        };
+
+        Combo_Y {
+            bindings = <&kp Z>;
+            key-positions = <19 20 35>;
+        };
+
+        Combo_BSPC {
+            bindings = <&kp BSPC>;
+            key-positions = <19 20 21>;
         };
     };
 
