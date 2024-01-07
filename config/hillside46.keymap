@@ -115,7 +115,7 @@
 
         Combo_Q {
             bindings = <&kp Q>;
-            key-positions = <19 39>;
+            key-positions = <20 35 22>;
         };
 
         Combo_V {
@@ -157,6 +157,36 @@
         Combo_BSPC {
             bindings = <&kp BSPC>;
             key-positions = <19 20 21>;
+        };
+
+        Combo_COMMA {
+            bindings = <&kp COMMA>;
+            key-positions = <21 22>;
+        };
+
+        Combo_PERIOD {
+            bindings = <&kp PERIOD>;
+            key-positions = <22 35>;
+        };
+
+        Combo_B {
+            bindings = <&kp B>;
+            key-positions = <33 21>;
+        };
+
+        Combo_C {
+            bindings = <&kp C>;
+            key-positions = <19 34>;
+        };
+
+        Combo_D {
+            bindings = <&kp D>;
+            key-positions = <34 22>;
+        };
+
+        Combo_F {
+            bindings = <&kp F>;
+            key-positions = <33 34>;
         };
     };
 
