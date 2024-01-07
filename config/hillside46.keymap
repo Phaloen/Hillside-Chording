@@ -55,21 +55,25 @@
         Combo_B {
             bindings = <&kp B>;
             key-positions = <33 21>;
+            layers = <0>;
         };
 
         Combo_C {
             bindings = <&kp C>;
             key-positions = <19 34>;
+            layers = <0>;
         };
 
         Combo_D {
             bindings = <&kp D>;
             key-positions = <34 22>;
+            layers = <0>;
         };
 
         Combo_F {
             bindings = <&kp F>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         Combo_G {
@@ -81,77 +85,100 @@
         Combo_H {
             bindings = <&kp H>;
             key-positions = <19 35>;
+            layers = <0>;
         };
 
         Combo_J {
             bindings = <&kp J>;
             key-positions = <33 35>;
+            layers = <0>;
         };
 
         Combo_K {
             bindings = <&kp K>;
             key-positions = <19 22>;
+            layers = <0>;
         };
 
         Combo_L {
             bindings = <&kp L>;
             key-positions = <19 36>;
+            layers = <0>;
         };
 
         Combo_M {
             bindings = <&kp M>;
             key-positions = <33 22>;
+            layers = <0>;
         };
 
         Combo_P {
             bindings = <&kp P>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         Combo_Q {
             bindings = <&kp Q>;
             key-positions = <20 35 22>;
+            layers = <0>;
         };
 
         Combo_T {
             bindings = <&kp T>;
             key-positions = <19 21>;
+            layers = <0>;
+        };
+
+        Combo_U {
+            bindings = <&kp U>;
+            key-positions = <33 36>;
+            layers = <0>;
         };
 
         Combo_V {
             bindings = <&kp V>;
-            key-positions = <34 21>;
+            key-positions = <20 35>;
+            layers = <0>;
         };
 
         Combo_W {
             bindings = <&kp W>;
             key-positions = <34 35>;
+            layers = <0>;
         };
 
         Combo_X {
             bindings = <&kp X>;
             key-positions = <20 22>;
+            layers = <0>;
         };
 
         Combo_Y {
             bindings = <&kp Z>;
             key-positions = <19 20 35>;
+            layers = <0>;
         };
 
         Combo_Z {
             bindings = <&kp Y>;
             key-positions = <34 36>;
+            layers = <0>;
         };
 
         Combo_DEL {
             bindings = <&kp DEL>;
             key-positions = <20 33 21>;
-            layers = <0>;
         };
 
         Combo_BSPC {
             bindings = <&kp BSPC>;
             key-positions = <19 20 21>;
+        };
+
+        Combo_RET {
+            bindings = <&kp RET>;
+            key-positions = <34 21>;
         };
 
         Combo_COMMA {
